@@ -11,7 +11,7 @@ public class PrintNumberFromNTo1Test {
         printer.print(100);
     }
 
-    @Test(expected = IllegalArgumentException.class)
+    @Test
     public void print2() {
         PrinterNumberFromNTo1 printer = new PrinterNumberFromNTo1();
         printer.print(2);
